@@ -6,8 +6,8 @@ def getPage():
   random_article = wikipedia.random(1)
 
   # print to the user the choice of random article
-  print("The random generated wikipedia article is " + random_article) 
-  
+  print("The random generated wikipedia article is " + random_article)
+
   # User input to view the page or not
   choice = input("Continue Loading more info about "
                   + random_article + " (y/n/q)")
@@ -30,10 +30,3 @@ def getPage():
     exit(0)
 
 getPage()
-'''
-random_article = wikipedia.random(1)
-wikiload = wikipedia.page(random_article)
-url = wikiload.url
-
-print(url)
-'''
