@@ -1,5 +1,12 @@
-# Python Script to generate Random Wikipedia Articles
-  1. install the requirements
-  1. run the app
-  1. This code can be used in any project
+# Random-wikipedia-article
+**This script randomly fetches a wikipedia article and gives you preview in the console and also gives you the option to open it in the browser**
 
+# To run the script
+## Install requirements
+```
+pip3 install -r requirements.txt
+```
+## Run the script
+```
+python3 main.py
+```
